@@ -7,6 +7,16 @@ document.addEventListener("click", () => {
   }
 }, { once: true });
 
+function toggleMusic() {
+  const music = document.getElementById("bg-music");
+  if (music.paused) {
+    music.play();
+  } else {
+    music.pause();
+  }
+}
+
+
 const images = [
   "images/image1.jpg",
   "images/image2.jpg",
