@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Image Viewer</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <button class="close-btn" onclick="closeViewer()">✖</button>
+    <img id="image" src="images/image1.png" alt="Image Viewer" />
+    
+    <div class="controls">
+      <button onclick="prevImage()">⬅ Back</button>
+      <button onclick="nextImage()">Next ➡</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
