@@ -1,3 +1,12 @@
+document.addEventListener("click", () => {
+  const music = document.getElementById("bg-music");
+  if (music.paused) {
+    music.play().catch(() => {
+      console.log("Auto-play blocked by browser.");
+    });
+  }
+}, { once: true });
+
 const images = [
   "images/image1.jpg",
   "images/image2.jpg",
