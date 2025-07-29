@@ -68,7 +68,7 @@ const images = [
   "images/image48.jpg",
   "images/image49.jpg",
   "images/image50.jpg",
-  "images/image51.jpg",
+  //"images/image51.jpg",
  // "images/image52.jpg",
   // add more image paths
 ];
